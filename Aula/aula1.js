@@ -16,7 +16,7 @@
 
  const alura = "alura";
 
- const operacaoMatematica2 = primeiroNumero + numeroPontoFlutuante1
+ const operacaoMatematica2 = numeroPontoFlutuante1 + numeroPontoFlutuante2
 
  console.log(operacaoMatematica2)
 
