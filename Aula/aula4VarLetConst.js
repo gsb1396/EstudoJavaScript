@@ -3,4 +3,4 @@
 var comprimento = 2
 var altura = 3 
 
-console.log(largura * altura)
+console.log(comprimento * altura)
