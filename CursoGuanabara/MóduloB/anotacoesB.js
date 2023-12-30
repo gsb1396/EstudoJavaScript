@@ -28,3 +28,27 @@
  - Function     
  
  (E para identificar no código de qual tipo é usamos o: TYPEOF antes da declaração)*/
+
+ //A concatenação em JavaScript funciona apenas com o sinal de +
+
+ /* Conversão de String para Número
+  - Number.parseInt(n) Para converter para números Inteiros
+  - Number.parseFloat(n) Para converter para números Decimais
+  - Number() Para conversão seja quaisquer número Inteiro ou Decimal*/
+
+/* Conversão de Número para String
+ - String(n) Converte qualquer número em uma String
+ - n.toString() Converte qualquer número em uma String*/  
+
+/* Para usar tempalte String que substitui a concatenação
+ - `${}` Basta colocar a frase dentro da crase e o as variáveis colocar dentro das chaves*/ 
+
+/* Formatando de String
+ - s.lenght Mostra quantos caracteres a String tem
+ - s.toUpperCase() Coloca a String toda em Maiúscula
+ - s.toLowerCase() Coloca a String toda em minúscula*/ 
+
+/* Formatando de Números
+ - n1.toFixed(2) Para deixar o número com duas casas decimais
+ - n1.toFixed(2).replace('.' , ',') Para deixar o número com duas casas decimais e trocar o ponto pela virgula
+ - n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) Transforma o número em representação de salário*/  
