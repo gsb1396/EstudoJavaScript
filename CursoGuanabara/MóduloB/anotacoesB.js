@@ -52,3 +52,23 @@
  - n1.toFixed(2) Para deixar o número com duas casas decimais
  - n1.toFixed(2).replace('.' , ',') Para deixar o número com duas casas decimais e trocar o ponto pela virgula
  - n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) Transforma o número em representação de salário*/  
+
+/* Operadores Aritiméticos
+ - + Adição
+ - - Subtração
+ - * Multiplicação
+ - / Divisão Real
+ - % Resto da Divisão
+ - ** Potência*/
+
+/* Ordem de precedência JS
+ - () Parênteses
+ - ** Potência
+ - * / % Multiplicação / Divisão Real / Resto da Divisão. O que aparecer primeiro da esquerda para direita
+ - + - Adição / Subtração*/ 
+
+/* Incremento 
+ - x++ Adciona 1 após a declaração
+ - x-- Subtrai 1 após a declaração
+ - ++x Adciona 1 antes da declaração
+ - --x Subtrai 1 antes da declaração*/
