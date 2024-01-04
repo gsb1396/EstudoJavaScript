@@ -72,3 +72,45 @@
  - x-- Subtrai 1 após a declaração
  - ++x Adciona 1 antes da declaração
  - --x Subtrai 1 antes da declaração*/
+
+/* Operadores Relacionais
+ - > Maior
+ - < Menor
+ - >= Maior ou igual
+ - <= Menor ou igual
+ - == Igual
+ - =! Diferente
+ - === Identidade Verifica se os operadores são do mesmo valor e mesmo tipo
+ - !== Desigual restrito Verifica se os operadores são diferentes de valor e tipo*/
+
+/* Operadores Lógicos
+ - ! Negação Todas as canetas menos azul
+ - && Conjunção Caneta azul E vermelha
+ - || Disjunção Caneta azul OU vermelha
+
+ Ordem dos Lógicos. !true or false > && > ||
+ 
+       Negação
+ - !true FALSE
+ - !false TRUE
+ 
+       Conjunção
+ - true && true TRUE
+ - true && false FALSE
+ - false && true FALSE
+ - false && false FALSE 
+ 
+       Disjunção
+ - true || true TRUE
+ - true || false TRUE
+ - false || true TRUE
+ - false || false FALSE*/
+
+// Ordem de expressões. Aritiméticos > Relacionais > Lógicos 
+
+/* Operadores Ternário
+ - ? : 
+       teste      ?    true    :    false     
+ Ex: media >= 7.0 ? "Aprovado" : Reprovado*/ 
+
+
