@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"> <!-- HTML HEAD -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora 1.0</title>
+    <title>Calculadora 1.2</title>
     <style> /* CSS */
         body{
             font: normal 20pt Arial;
@@ -19,13 +19,13 @@
 </head>
 <body>
     <h1>Calculadora</h1> <!-- HTML BODY -->
-    <input type="number" name="txtSomar1" id="txtSomar1"> + <input type="number" name="txtSomar2" id="txtSomar2"> <input type="button" value="Somar">
+    <input type="number" name="txtSomar1" id="txtSomar1"> + <input type="number" name="txtSomar2" id="txtSomar2"> <input type="button" value="Somar" onclick="somar()">
     <div id="soma">Soma</div> <br><br>
-    <input type="number" name="txtSubtrair1" id="txtSubtrair1"> - <input type="number" name="txtSubtrair2" id="txtSubtrair2"> <input type="button" value="Subtrair">
+    <input type="number" name="txtSubtrair1" id="txtSubtrair1"> - <input type="number" name="txtSubtrair2" id="txtSubtrair2"> <input type="button" value="Subtrair" onclick="subtrair()">
     <div id="subtrai">Subtrai</div> <br><br>
-    <input type="number" name="txtMultiplicar1" id="txtMultiplicar1"> * <input type="number" name="txtMultiplicar2" id="txtMultiplicar2"> <input type="button" value="Multiplicar">
+    <input type="number" name="txtMultiplicar1" id="txtMultiplicar1"> * <input type="number" name="txtMultiplicar2" id="txtMultiplicar2"> <input type="button" value="Multiplicar" onclick="multiplicar()">
     <div id="multiplica">Multiplica</div> <br><br>
-    <input type="number" name="txtDividir1" id="txtDividir1"> / <input type="number" name="txtDividir2" id="txtDividir2"> <input type="button" value="Dividir">
+    <input type="number" name="txtDividir1" id="txtDividir1"> / <input type="number" name="txtDividir2" id="txtDividir2"> <input type="button" value="Dividir" onclick="dividir()">
     <div id="dividi">Dividi</div>
     <script> //JS
         function somar(){
@@ -35,8 +35,8 @@
             let n1 = Number(adicao1.value)
             let n2 = Number(adicao2.value)
             let a = n1 + n2
-            soma.innerHTML = `A soma entre ${n1} e ${n2} é: ${a}`
-        }let botaoSomar = addEventListener('click', somar)
+            soma.innerText = `A soma entre ${n1} e ${n2} é: ${a}`
+        }//let botaoSomar = addEventListener('click', somar)
 
         function subtrair(){
             let subtrai1 = window.document.querySelector('input#txtSubtrair1')
@@ -46,7 +46,7 @@
             let n2 = Number(subtrai2.value)
             let s = n1 - n2
             subtrai.innerHTML = `A subtração entre ${n1} e ${n2} é: ${s}`
-        }let botaoSubtrair = addEventListener('click', subtrair)
+        }//let botaoSubtrair = addEventListener('click', subtrair)
 
         function multiplicar(){
             let multiplica1 = window.document.querySelector('input#txtMultiplicar1')
@@ -56,7 +56,7 @@
             let n2 = Number(multiplica2.value)
             let m = n1 * n2
             multiplica.innerHTML = `A multiplicação entre ${n1} e ${n2} é: ${m}`
-        }let botaoMultiplicar = addEventListener('click', multiplicar)
+        }//let botaoMultiplicar = addEventListener('click', multiplicar)
 
         function dividir(){
             let dividi1 = window.document.querySelector('input#txtDividir1')
@@ -67,7 +67,7 @@
             let d = n1 / n2
             let resto = n1 % n2
             dividi.innerHTML = `A divisão entre ${n1} e ${n2} é: ${d} e resto ${resto}` 
-        }let botaoDividir = addEventListener('click', dividir)
+        }//let botaoDividir = addEventListener('click', dividir)
         </script>
 </body>
 </html>
