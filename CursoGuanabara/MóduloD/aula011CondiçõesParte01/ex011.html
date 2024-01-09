@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual o seu País?</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+        input{
+            font: normal 20pt Arial;
+            width: 200px;
+        }
+        div#pais{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Você é Brasileiro?</h1>
+    Digite o país que você nasceu <input type="text" name="pais1" id="pais1"> <input type="button" value="Verificar" onclick="nacionalidade()">
+    <div id="pais">Processando...</div>
+    <script>
+        function nacionalidade(){
+            let natalidade = window.document.querySelector('input#pais1')
+            let pais = window.document.querySelector('div#pais')
+            let naturalidade = String(pais1.value)
+            pais.innerHTML = `<p>Você nasceu no(a) ${naturalidade}</p>`
+            if(naturalidade == 'Brasil'){
+                pais.innerHTML += `<p>Você é Brasileiro</p>`
+            }else{
+                pais.innerHTML += `<p>Você <strong>NÃO</strong> nasceu no Brasil</p>`
+            }  
+        } 
+    </script>
+    
+</body>
+</html>
