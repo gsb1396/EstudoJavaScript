@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Multas 0.5</title>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    <P>Bem vindo ao sistema de multas.</P>
+    <P>Este espaço é dedicado para saber se tem pendências em seu nome</P>
+    Por favor, comece digitando o seu nome: <input type="text" name="nome1" id="nome1"> <input type="button" value="Procurar" onclick="nomes()">
+    <div id="nomeDigitado"></div>
+    <input type="button" value="MULTAS" onclick="multas()"> <input type="button" value="PONTOS" onclick="pontos()">
+    <div id="multa"></div>
+    <div id="ponto"></div>
+    <script>
+        function nomes(){
+            let nomeUsuario = window.document.querySelector('input#nome1')
+            let nomeDigitado = window.document.querySelector('div#nomeDigitado')
+            let nomeOficial = String(nome1.value)
+            nomeDigitado.innerHTML = `Seja bem vindo. Sr(a): ${nomeOficial}<br>`
+            nomeDigitado.innerHTML += `Qual o serviço desejado. Sr(a): ${nomeOficial}`
+        }
+        function multas(){
+            let nomeOficial = String(nome1.value)
+            let multa = window.document.querySelector('div#multa')
+            if(nomeOficial == 'Gabriel'){
+                multa.innerHTML = `Você não tem multas`
+            }
+            else{
+                multa.innerHTML = `Você não é habilitado. Sr(a): ${nomeOficial}`
+            }            
+        }
+        function pontos(){
+            let nomeOficial = String(nome1.value)
+            let ponto = window.document.querySelector('div#ponto')
+            if(nomeOficial == 'Gabriel'){
+                ponto.innerHTML = `Você tem <strong>10 PONTOS</strong> `
+            }
+            else{
+                ponto.innerHTML = `Você não tem Pontos, pois o(a) Sr(a): ${nomeOficial}, não é habilitado(a)`
+            }
+        }
+    </script>       
+</body>
+</html>
