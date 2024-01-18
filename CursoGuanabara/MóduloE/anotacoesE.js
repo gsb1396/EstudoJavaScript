@@ -13,4 +13,9 @@
         do{
 
         }while(condição)
+
+ - For 
+        for(início;teste;incremento){
+            // Teste sendo verdadeiro será executado a repetição até ser falso e seguir o curso natural do script
+        }       
 */
