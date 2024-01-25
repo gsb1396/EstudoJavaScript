@@ -5,7 +5,8 @@ function gerarTabuada(){
     let select = window.document.querySelector('select#selectTabuada')
     select.innerHTML = ''
     for(let c = 1 ; c <= 10 ; c++){
-    option.text += ` ${numTabuada} x ${c} = ${c*numTabuada} `
+    option.text +=  ` ${numTabuada} x ${c} = ${c*numTabuada} ` 
     select.appendChild(option)
+    
     }
 }
