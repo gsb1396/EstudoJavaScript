@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "olaMundo", "olaMundo\olaMun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "olaMundo2", "olaMundo2\olaMundo2.csproj", "{F9FECBFF-1870-41D7-A303-F97BF6A52F41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "olaMundo3", "olaMundo3\olaMundo3.csproj", "{441C06E8-8698-4B0F-A7F4-26D359292E95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F9FECBFF-1870-41D7-A303-F97BF6A52F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9FECBFF-1870-41D7-A303-F97BF6A52F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9FECBFF-1870-41D7-A303-F97BF6A52F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441C06E8-8698-4B0F-A7F4-26D359292E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441C06E8-8698-4B0F-A7F4-26D359292E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441C06E8-8698-4B0F-A7F4-26D359292E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441C06E8-8698-4B0F-A7F4-26D359292E95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
