@@ -1,0 +1,14 @@
+C:\Programação\EstudoC#\olaMundo2\bin\Debug\net7.0\olaMundo2.exe
+C:\Programação\EstudoC#\olaMundo2\bin\Debug\net7.0\olaMundo2.deps.json
+C:\Programação\EstudoC#\olaMundo2\bin\Debug\net7.0\olaMundo2.runtimeconfig.json
+C:\Programação\EstudoC#\olaMundo2\bin\Debug\net7.0\olaMundo2.dll
+C:\Programação\EstudoC#\olaMundo2\bin\Debug\net7.0\olaMundo2.pdb
+C:\Programação\EstudoC#\olaMundo2\obj\Debug\net7.0\olaMundo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programação\EstudoC#\olaMundo2\obj\Debug\net7.0\olaMundo2.AssemblyInfoInputs.cache
+C:\Programação\EstudoC#\olaMundo2\obj\Debug\net7.0\olaMundo2.AssemblyInfo.cs
+C:\Programação\EstudoC#\olaMundo2\obj\Debug\net7.0\olaMundo2.csproj.CoreCompileInputs.cache
+C:\Programação\EstudoC#\olaMundo2\obj\Debug\net7.0\olaMundo2.dll
+C:\Programação\EstudoC#\olaMundo2\obj\Debug\net7.0\refint\olaMundo2.dll
+C:\Programação\EstudoC#\olaMundo2\obj\Debug\net7.0\olaMundo2.pdb
+C:\Programação\EstudoC#\olaMundo2\obj\Debug\net7.0\olaMundo2.genruntimeconfig.cache
+C:\Programação\EstudoC#\olaMundo2\obj\Debug\net7.0\ref\olaMundo2.dll
