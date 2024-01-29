@@ -1,0 +1,4 @@
+{
+    "dotnet.defaultSolution": "olaMundo.sln",
+    "csharp.debug.console": "externalTerminal"
+}
