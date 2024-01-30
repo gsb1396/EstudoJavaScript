@@ -19,7 +19,7 @@
     console.log(`Meu array é: ${num}`)
  
  - Mesmo que seja declarado um array, como no exemplo acima de três espaços, e você precisar adicionar mais um espaço, basta pegar o nome da variável e entre
-    colchetes adicionar o índice para onde determinado elemento será adicionado.
+    colchetes adicionar o índice para onde determinado elemento seja adicionado.
     
  - PUSH: Em JavaScript podemos também adicionar de uma outra forma, basta pegar o nome da variável, seguido de .push e entre parênteses o nome do elemento que você quer adicionar. 
  
@@ -28,7 +28,7 @@
     console.log(`Meu array é: ${num}`)
     
  - LENGTH: Para saber o comprimento de um vetor, basta pegar o nome da variável seguido de .length e para o JavaScript não existe o (), após o length.
-           Para saber a posição de determinado vetor, basta colocar o nome da variável, seguido de (num[0])
+           Para saber a posição de determinado vetor, basta colocar o nome da variável, seguido de (variavel[0])
 
            .length
  - let num = [1, 2, 3, 4]
