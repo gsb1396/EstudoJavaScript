@@ -1,4 +1,4 @@
-/* Variáveis Compostas
+/*                                                                              VARIÁVEIS COMPOSTAS
  - As variáveis compostas são os Arrays ou Vetores em PT-br.
  - Nesse tipo de variável é determinado pelo programador a quantidade de espaços que terá. 
  - É salvo mais de uma informação nessas variáveis.
@@ -73,3 +73,40 @@
 
 */
 
+
+
+
+
+
+
+
+
+
+/*                                                                       FUNÇÔES
+ - DEFINIÇÃO: São AÇÕES executadas assim que são CHAMADAS ou em decorrência de algum EVENTO. 
+ -            Uma FUNÇÃO pode receber PARÂMETROS e retornar um RESULTADO.
+ - Toda função pode ter os seguintes fatores: Chamada, Parâmetro, Ação, Retorno. 
+ - Toda função pode ter ou não Parâmetros e Retorno 
+ - Uma função em JavaScript no código pode ter vários retornos mas apenas um será executado.
+ 
+
+ - function ação(parâmetro){
+   
+   return res
+ }
+ ação(5 == parâmetro real)
+
+- function parimp(num){
+   if(num % 2 == 0){
+       return 'Par'
+   } else {
+       return 'Impar'
+   }
+}
+let res = parimp(11)
+console.log(res)
+
+- Uma variável pode receber uma função em JavaScript
+
+
+*/
