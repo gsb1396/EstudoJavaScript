@@ -108,5 +108,23 @@ console.log(res)
 
 - Uma variável pode receber uma função em JavaScript
 
+- let valor = function(num){
+    return num * 2
+}
+console.log(valor(4))
+
+ - Para se calcular o fatorial de um número fazemos das seguintes formas
+
+ - Forma Recursiva: Onde a função chama ela mesma 
+
+ - function fatorial(num){
+    if(num == 1){
+        return 1
+    } else{
+        return fatorial = num * fatorial(num-1)
+    }
+}
+console.log(fatorial(5))
+
 
 */
