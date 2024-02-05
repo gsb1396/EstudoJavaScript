@@ -5,5 +5,4 @@ function parimp(num){
         return 'Impar'
     }
 }
-let res = parimp(11)
-console.log(res)
+console.log(parimp(10))

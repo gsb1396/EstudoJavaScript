@@ -1,5 +1,3 @@
-// REVISAR
-
 function fatorial(num){
     let fat = 1
     for(let contador = num ; contador > 1 ; contador--){

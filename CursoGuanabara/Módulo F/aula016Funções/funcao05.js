@@ -1,4 +1,4 @@
-// REVISAR
+// RECURSIVIDADE
 
 function fatorial(num){
     if(num == 1){
