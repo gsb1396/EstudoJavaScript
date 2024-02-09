@@ -1,0 +1,13 @@
+/* Próximos passos para o JavaScipt
+ - Fazer o curso de HTML/CSS
+ - Aprofundar os estudos em FUNCÕES
+ - Objetos 
+ - Modularização
+ - RegEx Expressões Regulares
+ - JSON
+ - AJAX
+ - NodeJS
+ - JQuery
+ - VueJs
+ - Angula
+ - ReactJs*/
